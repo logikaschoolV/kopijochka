@@ -1,0 +1,727 @@
+
+body {
+    font-family: sans-serif;
+    /* Shop */
+
+position: relative;
+width: 1280px;
+height: 4454px;
+overflow-y: scroll;
+text-decoration: none;
+background: #FFFFFF;
+
+}
+header{
+    /* Rectangle 1 */
+
+position: absolute;
+width: 1280px;
+height: 616px;
+left: 0px;
+top: 0px;
+
+background: #C4C4C4;
+
+}
+.logo{
+    /* image 1 */
+
+position: absolute;
+width: 352px;
+height: 102px;
+left: 23px;
+top: 41px;
+
+background: url(image.png);
+border-radius: 25px;
+}
+h1{
+    /* Копійочка */
+position: absolute;
+width: 354px;
+height: 60px;
+left: 436px;
+top: 370px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 75px;
+
+color: #FF4D00;
+
+}
+h1:hover{
+    transform: scale(1.5);
+    transition:1s linear;
+}
+.catalog1{
+    /* Акції */
+
+position: absolute;
+width: 46px;
+height: 23px;
+left: 340px;
+top: 232px;
+text-decoration: none;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+
+
+}
+.catalog1:hover{
+    color: rgb(248, 124, 23);
+    transform: scale(1.5);
+}
+.catalog2{
+       /* Магазин */
+
+position: absolute;
+width: 81px;
+height: 23px;
+left: 463px;
+top: 232px;
+text-decoration: none;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+}
+.catalog2:hover{
+    color: rgb(248, 124, 23);
+    transform: scale(1.5);
+}
+ 
+
+
+.catalog3{
+    /* Новини */
+
+position: absolute;
+width: 72px;
+height: 23px;
+left: 606px;
+top: 232px;
+text-decoration: none;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;{}
+
+
+}
+.catalog3:hover{
+    color: rgb(248, 124, 23);
+    transform: scale(1.5);
+}
+.catalog4{
+/* Пронас */
+
+position: absolute;
+width: 70px;
+height: 23px;
+left: 746px;
+top: 232px;
+text-decoration: none;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+
+
+
+}
+.catalog4:hover{
+    color: rgb(248, 124, 23);
+    transform: scale(1.5);
+}
+.catalog5{
+    /* Контакти */
+
+position: absolute;
+width: 88px;
+height: 23px;
+left: 905px;
+top: 232px;
+text-decoration: none;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+
+}
+.catalog5:hover{
+    color: rgb(248, 124, 23);
+    transform: scale(1.5);
+}
+.us{
+    /* Про нас */
+
+position: absolute;
+width: 180px;
+height: 56px;
+left: 88px;
+top: 820px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+
+color: #FF4D00;
+
+}
+.info p{
+    /*  Найбільша регіональна мережа магазинів на Західній Україні. Асортимент мережі налічує понад 4000 позицій, серед яких є: корисні товари для дому, засоби побутової хімії та засоби гігієни, іграшки та товари для дітей, канцтовари, косметика, сумки та гаманці та інше. */
+position: absolute;
+width: 574px;
+height: 168px;
+left: 88px;
+top: 916px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+
+}
+.copilka{
+    /* image 2 */
+
+position: absolute;
+width: 400px;
+height: 393px;
+left: 792px;
+top: 787px;
+
+background: url(image.png);
+border-radius: 30px;
+
+}
+.tovar{
+    /* Каталог */
+
+position: absolute;
+width: 181px;
+height: 56px;
+left: 549px;
+top: 1357px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+
+color: rgb(248, 124, 23);
+
+
+}
+
+.Maldivia-img{
+    /* image 3 */
+
+position: absolute;
+width: 338px;
+height: 260px;
+left: 37px;
+top: 1494px;
+opacity: 0.8;
+background: url(image.png);
+
+}
+.Maldivia-img:hover{
+    transform: scale(1.5);
+    transition: 1s linear;
+    opacity: 1;
+}
+.Corv-img{
+    /* image 4 */
+
+position: absolute;
+width: 250px;
+height: 270px;
+left: 564px;
+top: 1517px;
+opacity: 0.8;
+background: url(image.png);
+
+}
+.Corv-img:hover{
+    transform: scale(1.5);
+    transition: 1s linear;
+    opacity: 1;
+}
+.Maldivia-h4{
+    /* Maldivia */
+
+position: absolute;
+width: 120px;
+height: 38px;
+left: 100px;
+top: 1800px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+.text{
+    /* Сік Тропік в асортименті 1Л. */
+
+position: absolute;
+width: 252px;
+height: 46px;
+left: 100px;
+top: 1885px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+
+
+}
+.sallari{
+    /* 34:50 */
+position: absolute;
+width: 82px;
+height: 28px;
+left: 100px;
+top: 1950px;
+text-decoration: none;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+background-color: rgb(248, 124, 23);
+color: white;
+padding:10px 15px;
+border-radius: 15px;
+
+
+}
+.may-h4{
+    /* Корм Мяу */
+position: absolute;
+width: 149px;
+height: 38px;
+left: 481px;
+top: 1800px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+.text1{
+    /* Корм для кішок з рибою в асортименті 100г. */
+
+position: absolute;
+width: 276px;
+height: 46px;
+left: 479px;
+top: 1885px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+
+
+}
+.sallari1{
+    /* 11:90 */
+
+position: absolute;
+width: 82px;
+height: 28px;
+left: 479px;
+top: 1950px;
+text-decoration: none;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+
+background-color: rgb(248, 124, 23);
+color: white;
+padding:10px 15px;
+border-radius: 15px;
+
+
+}
+.contic-img{
+/* image 5 */
+
+position: absolute;
+width: 299px;
+height: 252px;
+left: 900px;
+top: 1554px;
+opacity: 0.8;
+background: url(image.png);
+
+
+}
+.contic-img:hover{
+    transform: scale(1.5);
+    transition: 1s linear;
+    opacity: 1;
+}
+
+.contic-h4{
+    /* Контік */
+
+position: absolute;
+width: 98px;
+height: 38px;
+left: 859px;
+top: 1800px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+.text2{
+    /* Печево сендвіч Контік в асортименті 90гю */
+
+position: absolute;
+width: 229px;
+height: 46px;
+left: 859px;
+top: 1885px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+
+
+}
+.sallari2{
+    /* 15:90 */
+
+position: absolute;
+width: 92px;
+height: 28px;
+left: 859px;
+top: 1950px;
+text-decoration: none;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+
+background-color: rgb(248, 124, 23);
+color: white;
+padding:10px 15px;
+border-radius: 15px;
+
+
+}
+.akcii-h2{
+    /* Акції */
+
+position: absolute;
+width: 146px;
+height: 75px;
+left: 578px;
+top: 2079px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 75px;
+/* identical to box height */
+
+color: #F80606;
+
+
+}
+.a-img{
+    /* image 8 */
+
+position: absolute;
+width: 270px;
+height: 426px;
+left: 35px;
+top: 2278px;
+
+background: url(image.png);
+
+}
+.a-img:hover{
+    transform: scale(1.1);
+    transition: 1s linear;
+}
+.a2-img{
+    /* image */
+
+position: absolute;
+width: 306px;
+height: 426px;
+left: 442px;
+top: 2278px;
+
+background: url(image.png);
+
+}
+.a2-img:hover{
+    transform: scale(1.1);
+    transition: 1s linear;
+}
+.a3-img{
+    
+/* image 9 */
+
+position: absolute;
+width: 397px;
+height: 419px;
+left:868px;
+top:2278px;
+background: url(image.png);
+
+
+}
+.a3-img:hover{
+    transform: scale(1.1);
+    transition: 1s linear;
+}
+.cs{
+    /* Де нас знайти? */
+
+position: absolute;
+width: 344px;
+height: 56px;
+left: 468px;
+top: 2855px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+
+color: rgb(248, 124, 23);
+
+
+}
+iframe{
+    /* image */
+
+position: absolute;
+width: 670px;
+height: 500px;
+left: 325px;
+top: 3036px;
+
+background: url(image.png);
+
+}
+.adress{
+    /* Адреса */
+
+position: absolute;
+width: 125px;
+height: 42px;
+left: 577px;
+top: 3609px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+
+color: rgb(248, 124, 23);
+
+
+}
+.adress:hover{
+    transform: scale(1.1);
+    transition: 1s linear;
+}
+.top{
+    /* місто Волочиськвул. Незалежності 44 */
+
+position: absolute;
+width: 362px;
+height: 84px;
+left: 459px;
+top: 3736px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+
+color: #000000;
+
+
+}
+.top1{
+    /* місто Харківвул. Сумська 60 */
+
+position: absolute;
+width: 271px;
+height: 84px;
+left: 504px;
+top: 3898px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+
+color: #000000;
+
+
+}
+.top2{
+    /* місто Львіввул. Богдана Хмельницького 14 */
+
+position: absolute;
+width: 540px;
+height: 84px;
+left: 370px;
+top: 4060px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+
+color: #000000;
+
+
+}
+footer{
+    /* Rectangle 11 */
+
+position: absolute;
+width: 1280px;
+height: 185px;
+left: 0px;
+top: 4269px;
+
+background: #C4C4C4;
+
+}
+footer h4{
+    /* Номер телефону: 0800 502 990 */
+
+width: 528px;
+height: 42px;
+left: 86px;
+top: 4270px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+
+color: rgb(248, 124, 23);
+
+}
+
+footer p{
+    /* Соц мережі */
+position: absolute;
+width: 131px;
+height: 28px;
+left: 971px;
+top: 22px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+color: #000000;
+}
+.i{
+    /* image 6 */
+position: absolute;
+width: 74px;
+height: 67px;
+left: 971px;
+top: 88px;
+border-radius: 15px;
+}
+.t{
+    /* image 7 */
+position: absolute;
+width: 74px;
+height: 67px;
+left: 1110px;
+top: 88px;
+border-radius: 15px;
+}
+
+
+
